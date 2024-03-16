@@ -38,7 +38,7 @@ type Subnet struct {
 
 func getApiJson() []Data {
 	store := os.Getenv("STORE")
-	apiUrl := "url da sua api"
+	apiUrl := "url da sua api. realizando um get no json"
 	url := apiUrl + store
 	method := "GET"
 	apiKey := "seu token de acesso"
